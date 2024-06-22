@@ -1,0 +1,149 @@
+
+body {
+ 
+  margin:0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.upload-container {
+  background-color: #f0f0f0;
+  padding: 30px;
+  border-radius: 5px;
+  text-align: center;
+  height: 459px;
+  width: 676px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  margin-top: 127px;
+}
+
+form {
+  display: inline-block;
+}
+
+.upload-button {
+  background-color: #3498db;
+  color: #fff;
+ 
+  border: none;
+  border-radius: 5px; 
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.upload-button:hover {
+  opacity: 0.8;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction:column;
+  
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  margin-top:25px;
+  border: 1px solid #ddd;
+
+  border-radius:22px;
+}
+.top{
+  display: flex;
+  flex-direction:row;
+}
+.top>img
+{margin:14px;
+  width:65px;
+}
+.top_right{
+display: flex;
+flex-direction:column;
+left:5vh;
+}
+
+.top_right h1{
+ margin-top: 21px;
+ font-size:18px;
+}
+
+
+.upload-area {
+  display:flex;
+  flex-direction: column;
+  border:2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  margin-bottom:20px;
+  height:230px;
+  border-radius: 10px;
+margin:4vh;
+
+}
+
+.upload-area img{
+  margin:auto;
+}
+
+.upload-area label {
+  margin-top:30px;
+  cursor: pointer;
+}
+
+.upload-area h4{
+  color: grey;
+}
+
+.file-label {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3494e6;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  transition: background-color 0.3s;
+}
+
+.file-label:hover {
+  background-color: #2980b9;
+}
+
+.file-input {
+  display: none;
+}
+
+.file-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.file-list li {
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  border: 1px solid purple;
+  border-radius: 5px;
+  background-color:green;
+  cursor:default;
+  display:inline-block;
+  font-family:'Courier New', Courier, monospace;
+  width:200px;
+}
